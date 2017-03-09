@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    title= title
+    script(src="https://code.jquery.com/jquery-2.0.0.min.js")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href="/stylesheets/bootstrap.min.css")
+    
+    script(rel='stylesheet', src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    script.
+      var ua = navigator.userAgent
+
+  body
+    div(role="navigation").navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') Party Headquarters.
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/gear') Gear
+            li
+              a(href='/facilities') Facilities
+            li
+              a(href='/audio') Audio
+            li
+              a(href='/about') About
+            li 
+              a(href='/contact') Contact
+
+          ul.nav.navbar-nav.navbar-right
+
+    if main !== true
+      h2 !{title}
+      hr
+    block content

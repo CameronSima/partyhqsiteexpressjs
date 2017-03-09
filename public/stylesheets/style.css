@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Copasetic';
+	src: url('../fonts/CopaseticNF.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Cameo';
+	src: url('../fonts/CameoAppearanceNF.ttf') format('truetype');
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
+}
+
+a {
+  color: #00B7FF;
+}
+
+#HQimg {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#img_container {
+	position: relative;
+	text-align: center;
+}	
+
+#spinner {
+	bottom: 57%;
+	left: 46%;
+	position: absolute;
+}
+
+.navbar-brand {
+	letter-spacing: 5px;
+	font-weight: 500;
+	font-size: 20px !important;
+	font-family: Copasetic;
+}
+
+.gear-desc {
+	padding: 15px;
+	display: inline-block;
+}
+
+.gear-pic {
+	display: inline-block;
+}
+
+.gear {
+	display: flex;
+	padding-bottom:5px;
+	padding-top: 5px;
+}
+
+.gear-img {
+	width: 330px;
+}
+
+@media (max-width: 767px) 
+{
+    h2 { 
+    	display: none; 
+    }  
+
+    .audiojs {
+    	width: 100%;
+    }
+
+    .gear {
+    	display: block;
+    }
+
+    .gear-img {
+    	width: 100%;
+    }
+}

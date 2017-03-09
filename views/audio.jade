@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+	script(src='../audio/audio.min.js')
+	script.
+		audiojs.events.ready(function() {
+			var as = audiojs.createAll();
+		})
+	.well
+		h3 Van Halen - Jump
+		br
+		p This is one of the sickest tracks of all time. From the awesome keyboard riff, to Eddie Van Halen's awesome guitar tone, to the free-wheelin' spirit of the lyrics, this song pops hard. We have recorded many, many tracks that pop as hard, or even harder, than Van Halen's Jump and sound pretty much just like it.
+		br
+		audio(src='../audio/tracks/Jump.mp3' preload='auto')
+		hr
+
+		h3 Van Halen - Panama
+		br
+		p If there's one track that kills it more than Jump by Van Halen, it's Van Halen's Panama. The dopeness of the main guitar riff is something that we always encourage our clients to incorporate into their songwriting. Not only do killer guitar riffs really make a song pop off, but recording them is one of our specialties and pleasures in life. 
+
+		p As we like to say at Party Headquarters, "the licks get the chicks".
+		br
+		audio(src='../audio/tracks/Panama.mp3' preload='auto'
+		hr)
