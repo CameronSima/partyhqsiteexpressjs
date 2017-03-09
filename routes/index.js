@@ -1,8 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
+	var hostname = req.headers.host.split(':')[0]
+  console.log(req.headers.host)
   res.render('index', { title: 'Party HQ', main: true });
 });
 

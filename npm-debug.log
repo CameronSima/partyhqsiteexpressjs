@@ -7,7 +7,7 @@
 6 silly lifecycle sabolick@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle sabolick@0.0.0~start: sabolick@0.0.0
 8 verbose lifecycle sabolick@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle sabolick@0.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/cameron/Projects/Node/sabolick/node_modules/.bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/cameron/bin:/usr/local/java/jdk1.8.0_51/bin:/home/cameron/google_appengine:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/cameron/bin:/usr/local/java/jdk1.8.0_51/bin:/home/cameron/google_appengine/dev_appserver.py
+9 verbose lifecycle sabolick@0.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/cameron/Projects/Node/sabolick/node_modules/.bin:/usr/local/heroku/bin:/home/cameron/.local/share/umake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/cameron/bin:/usr/local/java/jdk1.8.0_51/bin:/home/cameron/google_appengine:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/cameron/bin:/usr/local/java/jdk1.8.0_51/bin:/home/cameron/google_appengine/dev_appserver.py:/home/cameron/Android/Sdk/tools://home/cameron/Android/Sdk/platform_tools
 10 verbose lifecycle sabolick@0.0.0~start: CWD: /home/cameron/Projects/Node/sabolick
 11 silly lifecycle sabolick@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle sabolick@0.0.0~start: Returned: code: 1  signal: null
@@ -24,7 +24,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid sabolick@0.0.0
 16 verbose cwd /home/cameron/Projects/Node/sabolick
-17 error Linux 4.8.0-30-generic
+17 error Linux 4.8.0-41-generic
 18 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
 19 error node v6.9.1
 20 error npm  v3.10.8
