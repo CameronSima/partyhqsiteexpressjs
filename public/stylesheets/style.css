@@ -75,7 +75,7 @@ a {
     	display: block;
     }
 
-    .gear-img {
+    .gear-img, .large-img {
     	width: 100%;
     }
 
