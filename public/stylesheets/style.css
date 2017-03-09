@@ -82,4 +82,8 @@ a {
     body { 
     	padding: 5px;
     }
+
+    #header_title {
+    	font-size: 15px !important;
+    }
 }
