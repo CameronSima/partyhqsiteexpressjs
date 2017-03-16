@@ -87,3 +87,8 @@ a {
     	font-size: 15px !important;
     }
 }
+
+.img-comment {
+	font-style: italic;
+	font-size: 18px;
+}
